@@ -9,5 +9,10 @@
 #  updated_at :datetime         not null
 #
 
-module UsersHelper
+require 'test_helper'
+
+class UserTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
 end
