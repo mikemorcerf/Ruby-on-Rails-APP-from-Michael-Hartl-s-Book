@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 
+
 gem 'rails',                   '4.2.2'
 gem 'bcrypt',                  '3.1.7'
 gem 'faker',                   '1.4.2'
@@ -20,7 +21,7 @@ gem 'sdoc',                    '0.4.0', group: :doc
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
-  gem 'byebug',      '3.4.0'
+  gem 'byebug',      '8.2.1'
   gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
   gem 'rspec-rails', '3.4.0'
